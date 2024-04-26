@@ -1,0 +1,52 @@
+name: bookwise_web
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  majestica_ds:
+    git:
+      url: https://github.com/Majestica-Dev/design-system.git
+      ref: main  
+  flutter_gen: ^5.4.0    
+  flutter_svg: ^2.0.10+1
+  url_launcher: ^6.2.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: "^0.13.1"
+  flutter_gen_runner: ^5.3.2
+  build_runner: ^2.4.9
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets: 
+   - assets/icons/
+   - assets/images/
+   
+  fonts:
+    - family: SF-Pro
+      fonts:
+        - asset: assets/fonts/SF-Pro-Text-Regular.otf
+    - family: New-York
+      fonts:
+        - asset: assets/fonts/NewYorkLarge-Regular.otf
+     
+flutter_launcher_icons:
+  web:
+    generate: true
+    image_path: "assets/icons/app_icon.png"
+   
+ 
+
+ 
