@@ -1,8 +1,8 @@
-
-import 'package:Bookwise/constants/colors.dart';
-import 'package:Bookwise/constants/urls.dart';
-import 'package:Bookwise/gen/assets.gen.dart';
-import 'package:Bookwise/utils/url_launcher.dart';
+import 'package:bookwise_web/constants/colors.dart';
+import 'package:bookwise_web/constants/urls.dart';
+import 'package:bookwise_web/core/logger/firebase_analytics.dart';
+import 'package:bookwise_web/gen/assets.gen.dart';
+import 'package:bookwise_web/utils/url_launcher.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:majestica_ds/majestica_ds.dart';
@@ -56,6 +56,8 @@ class FirstPage extends StatelessWidget {
                   child: PrimaryButton(
                     buttonSize: MDSButtonSize.L,
                     onPressed: () {
+                      FirebaseAnalyticsLogger.downloadButtonPressed();
+
                       UrlLauncherUtils.launchUrl(Urls.appLink);
                     },
                     text: 'Download Free on iOS',

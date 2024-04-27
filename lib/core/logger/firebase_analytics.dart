@@ -13,9 +13,9 @@ abstract class FirebaseAnalyticsLogger {
     );
   }
 
-  static Future<void> logOnboardingIntroEntered() async {
+  static Future<void> downloadButtonPressed() async {
     await _logEvent(
-      name: 'onboarding_intro_opened',
+      name: 'download_button_pressed',
     );
   }
 }

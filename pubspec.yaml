@@ -1,4 +1,4 @@
-name: Bookwise
+name: bookwise_web
 
 description: "A new Flutter project."
 publish_to: 'none'
@@ -16,7 +16,7 @@ dependencies:
     git:
       url: https://github.com/Majestica-Dev/design-system.git
       ref: main  
-      
+
   flutter_gen: ^5.4.0    
   flutter_svg: ^2.0.10+1
   url_launcher: ^6.2.6
