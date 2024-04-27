@@ -1,7 +1,9 @@
-name: bookwise_web
+name: Bookwise
+
 description: "A new Flutter project."
 publish_to: 'none'
-version: 0.1.0
+
+version: 1.0.1+1
 
 environment:
   sdk: '>=3.3.3 <4.0.0'
@@ -14,10 +16,12 @@ dependencies:
     git:
       url: https://github.com/Majestica-Dev/design-system.git
       ref: main  
+      
   flutter_gen: ^5.4.0    
   flutter_svg: ^2.0.10+1
   url_launcher: ^6.2.6
   firebase_core: ^2.30.1
+  firebase_analytics: ^10.10.4
 
 dev_dependencies:
   flutter_test:

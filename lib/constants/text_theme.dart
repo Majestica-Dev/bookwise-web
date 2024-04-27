@@ -1,4 +1,4 @@
-import 'package:bookwise_web/gen/fonts.gen.dart';
+import 'package:Bookwise/gen/fonts.gen.dart';
 import 'package:majestica_ds/majestica_ds.dart';
 
 abstract final class BSTextTheme {
