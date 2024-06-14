@@ -7,8 +7,10 @@ import 'package:flutter/material.dart';
 import 'package:majestica_ds/majestica_ds.dart';
 
 void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
   await Firebase.initializeApp(
-    options: DefaultFirebaseOptions.currentPlatform,
+    options: DefaultFirebaseOptions.web,
   );
 
   runApp(const MainApp());
