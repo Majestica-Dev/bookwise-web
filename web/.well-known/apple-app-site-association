@@ -1,10 +1,12 @@
 {
   "applinks": {
-      "apps": [],
-      "details": [
+    "apps": [],
+    "details": [
       {
-        "appID": "MZ2K5WT68M.com.majesticalab.bookwise",
-        "paths": ["*"]
+        "appID": "CGU4878BY2.com.majesticalab.bookwise",
+        "paths": [
+          "*"
+        ]
       }
     ]
   }
