@@ -13,25 +13,20 @@ class $AssetsIconsGen {
   const $AssetsIconsGen();
 
   /// File path: assets/icons/app_icon.png
-  AssetGenImage get appIconPng =>
-      const AssetGenImage('assets/icons/app_icon.png');
-
-  /// File path: assets/icons/app_icon.svg
-  String get appIconSvg => 'assets/icons/app_icon.svg';
+  AssetGenImage get appIcon => const AssetGenImage('assets/icons/app_icon.png');
 
   /// List of all assets
-  List<dynamic> get values => [appIconPng, appIconSvg];
+  List<AssetGenImage> get values => [appIcon];
 }
 
 class $AssetsImagesGen {
   const $AssetsImagesGen();
 
-  /// File path: assets/images/app_ilustration.png
-  AssetGenImage get appIlustration =>
-      const AssetGenImage('assets/images/app_ilustration.png');
+  /// File path: assets/images/download_button.svg
+  String get downloadButton => 'assets/images/download_button.svg';
 
   /// List of all assets
-  List<AssetGenImage> get values => [appIlustration];
+  List<String> get values => [downloadButton];
 }
 
 class Assets {

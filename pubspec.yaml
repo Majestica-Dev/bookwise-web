@@ -39,13 +39,6 @@ flutter:
    - assets/icons/
    - assets/images/
    
-  fonts:
-    - family: SF-Pro
-      fonts:
-        - asset: assets/fonts/SF-Pro-Text-Regular.otf
-    - family: New-York
-      fonts:
-        - asset: assets/fonts/NewYorkLarge-Regular.otf
      
 flutter_launcher_icons:
   web:
